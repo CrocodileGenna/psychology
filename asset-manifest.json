@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/psychology/static/css/main.f9cf201e.css",
+    "main.js": "/psychology/static/js/main.83531fb7.js",
+    "index.html": "/psychology/index.html",
+    "main.f9cf201e.css.map": "/psychology/static/css/main.f9cf201e.css.map",
+    "main.83531fb7.js.map": "/psychology/static/js/main.83531fb7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9cf201e.css",
+    "static/js/main.83531fb7.js"
+  ]
+}
