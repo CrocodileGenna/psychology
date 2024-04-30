@@ -1,5 +1,11 @@
 import styled from '@emotion/styled';
 
+export const FIXED_DIV = styled.div`
+  position: fixed;
+  width: 100%;
+  background-color: #0000000a;
+`;
+
 export const HEADER_SECTION = styled.section`
   display: flex;
   justify-content: space-around;
@@ -16,33 +22,45 @@ export const IMG = styled.img`
 
 export const MENU_NAV = styled.nav`
   display: flex;
-  width: 740px;
   justify-content: space-around;
   align-items: center;
   padding: 0 0 0 70px;
+  width: 740px;
+  height: 100%;
 `;
 
 export const A_DIV = styled.div`
-  // display: flex;
-  // align-items: center;
-  // justify-content: center;
-  width: 100%;
-  height: 55px;
-`;
-export const A = styled.a`
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  padding: 0 0 0 10px;
   width: 100%;
   height: 100%;
   transition: all 0.5s ease;
-  color: #cbcac5;
-  font-size: 18px;
-  font-weight: 400;
 
   &:hover {
-    color: #40c3ba;
     box-shadow: inset 0 -1px 0 black;
+    a {
+      color: #40c3ba;
+    }
+  }
+
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease;
+    // color: #cbcac5;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  img {
+    width: 22px;
+    height: 8px;
+    padding: 0 0 0 5px;
   }
 `;
 export const PHONE_DIV = styled.div`
