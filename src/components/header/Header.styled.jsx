@@ -2,13 +2,15 @@ import styled from '@emotion/styled';
 
 export const FIXED_DIV = styled.div`
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   background-color: #0000000a;
 `;
 
 export const HEADER_SECTION = styled.section`
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   margin: 0 auto;
   padding: 5px 20px;
@@ -24,7 +26,7 @@ export const MENU_NAV = styled.nav`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 0 0 0 70px;
+  padding: 0 0 0 50px;
   width: 740px;
   height: 100%;
 `;
@@ -56,6 +58,8 @@ export const A_DIV = styled.div`
     color: black;
     font-size: 18px;
     font-weight: 400;
+    line-height: 21.6px;
+    font-family: Manrope;
   }
   img {
     width: 22px;
@@ -67,11 +71,16 @@ export const PHONE_DIV = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  margin-left: auto;
   height: 100%;
 
   p {
-    font-family: cursive;
-    font-size: 18px;
+    
+    font-family: Manrope;
+    font-size: 16px;
     font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
   }
 `;
