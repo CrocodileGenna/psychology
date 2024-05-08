@@ -5,7 +5,9 @@ export const FIXED_DIV = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #0000000a;
+  background-color: #fffc;
+  backdrop-filter: blur(10px);
+  z-index: 9999;
 `;
 
 export const HEADER_SECTION = styled.section`

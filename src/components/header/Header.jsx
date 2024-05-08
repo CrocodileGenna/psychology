@@ -1,4 +1,4 @@
-import TotalIcons from './icons.svg';
+import TotalIcons from '../logo.svg';
 import Vector from './Vector.png'
 import {
   HEADER_SECTION,
@@ -13,7 +13,7 @@ export const Header = () => {
   return (
     <FIXED_DIV>
       <HEADER_SECTION>
-        <IMG src={TotalIcons} alt="totalIcons" />
+        <IMG src={TotalIcons} alt="totalLogo" />
         <MENU_NAV>
           <A_DIV>
             <a href="/">Меню</a>

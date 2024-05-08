@@ -1,3 +1,4 @@
+import { Footer } from './footer/Footer';
 import { Header } from './header/Header';
 import { TitleInfo } from './title_ihfo/Title_info';
 export const App = () => {
@@ -5,6 +6,7 @@ export const App = () => {
     <>
       <Header />
       <TitleInfo />
+      <Footer />
     </>
   );
 };

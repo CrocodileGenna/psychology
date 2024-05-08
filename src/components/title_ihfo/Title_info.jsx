@@ -12,13 +12,24 @@ import {
   ICON_TELEGRAM_SPAN,
   EMAIL_A,
   SKYPE_A,
+  QUERIES_DIV,
+  QUERIES_LIST_TOP_UL,
+  QUERIES_LIST_BTM_UL,
 } from './Title_info.styled';
-import iconVk from './img/iconVk.png';
-import iconEmeil from './img/iconEmail.png';
-import iconWatsApp from './img/iconWatsApp.png';
-import iconSms from './img/iconSms.png';
-import iconSkype from './img/iconSkype.png';
-import iconTelegram from './img/iconTelegram.svg';
+
+import iconVk from '../img_icon/iconVk.png';
+import iconEmeil from '../img_icon//iconEmail.png';
+import iconWatsApp from '../img_icon//iconWatsApp.png';
+import iconSms from '../img_icon//iconSms.png';
+import iconSkype from '../img_icon//iconSkype.png';
+import iconTelegram from '../img_icon//iconTelegram.svg';
+
+import fear from './img/Fear.png';
+import goals from './img/Goals.png';
+import hardTimes from './img/HardTimes.png';
+import love from './img/Love.png';
+import potential from './img/Potential.png';
+import selbstachtung from './img/Selbstachtung.png';
 
 export const TitleInfo = () => {
   return (
@@ -86,6 +97,61 @@ export const TitleInfo = () => {
           </ul>
         </RIGHT_HERO_DIV>
       </HERO_DIV>
+      <QUERIES_DIV>
+        <h3>Основные запросы</h3>
+        <QUERIES_LIST_TOP_UL>
+          <li>
+            <img src={selbstachtung} alt="" />
+            <h4>Наладить самооценку</h4>
+            <p>
+              Помогу превратить недостатки в достоинства, прийти к согласию с
+              самим собой, обрести чувство гармонии
+            </p>
+          </li>
+          <li>
+            <img src={potential} alt="" />
+            <h4>Личносный потенциал</h4>
+            <p>
+              Вместе раскроем личностный потенциал: лучше узнать себя, свои
+              возможности, сильные стороны, улучшить качество жизни
+            </p>
+          </li>
+          <li>
+            <img src={goals} alt="" />
+            <h4>Жизненые цели</h4>
+            <p>
+              Найдем ваше призвание, путь к желанной профессии, сформулируем
+              жизненные цели, которые принесут пользу
+            </p>
+          </li>
+        </QUERIES_LIST_TOP_UL>
+        <QUERIES_LIST_BTM_UL>
+          <li>
+            <img src={fear} alt="" />
+            <h4>Страхи и фобии</h4>
+            <p>
+              Вместе мы исследуем корни ваших страхов, преодолеемих, я
+              предоставлю вам необходимые инструменты техники для управления
+            </p>
+          </li>
+          <li>
+            <img src={hardTimes} alt="" />
+            <h4>Трудные времена</h4>
+            <p>
+              Справимся с кризисом или с тяжелой утратой, переживем потерю или
+              расставание и построим дальнейшие действия, чтобы избежать этого
+            </p>
+          </li>
+          <li>
+            <img src={love} alt="" />
+            <h4>Улучшение отношений</h4>
+            <p>
+              Мы разработаем эффективные коммуникационные навыки, решим
+              конфликты инайдем способы понимания вваших отношениях
+            </p>
+          </li>
+        </QUERIES_LIST_BTM_UL>
+      </QUERIES_DIV>
     </TITLE_SECTION>
   );
 };
