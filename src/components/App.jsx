@@ -1,12 +1,23 @@
+
 import { Footer } from './footer/Footer';
 import { Header } from './header/Header';
-import { TitleInfo } from './title_ihfo/Title_info';
+import { Home } from './home/Home';
+
 export const App = () => {
   return (
     <>
       <Header />
-      <TitleInfo />
+      <Home />
       <Footer />
     </>
   );
 };
+
+// export const App = () => {
+//   return (
+//     <Router>
+//       <Header />
+//       <Footer />
+//     </Router>
+//   );
+// };
