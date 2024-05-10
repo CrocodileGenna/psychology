@@ -17,12 +17,12 @@ import {
   QUERIES_LIST_BTM_UL,
 } from './Home.styled';
 
-import iconVk from '../img_icon/iconVk.png';
-import iconEmeil from '../img_icon//iconEmail.png';
-import iconWatsApp from '../img_icon//iconWatsApp.png';
-import iconSms from '../img_icon//iconSms.png';
-import iconSkype from '../img_icon//iconSkype.png';
-import iconTelegram from '../img_icon//iconTelegram.svg';
+import iconVk from '../../img_icon/iconVk.png';
+import iconEmeil from '../../img_icon/iconEmail.png';
+import iconWatsApp from '../../img_icon/iconWatsApp.png';
+import iconSms from '../../img_icon/iconSms.png';
+import iconSkype from '../../img_icon/iconSkype.png';
+import iconTelegram from '../../img_icon/iconTelegram.svg';
 
 import fear from './img/Fear.png';
 import goals from './img/Goals.png';
@@ -31,7 +31,7 @@ import love from './img/Love.png';
 import potential from './img/Potential.png';
 import selbstachtung from './img/Selbstachtung.png';
 
-export const Home = () => {
+const Home = () => {
   return (
     <TITLE_SECTION>
       <HERO_DIV>
@@ -101,7 +101,7 @@ export const Home = () => {
         <h3>Основные запросы</h3>
         <QUERIES_LIST_TOP_UL>
           <li>
-            <img src={selbstachtung} alt="" />
+            <img src={selbstachtung} alt="selbstachtung" />
             <h4>Наладить самооценку</h4>
             <p>
               Помогу превратить недостатки в достоинства, прийти к согласию с
@@ -109,7 +109,7 @@ export const Home = () => {
             </p>
           </li>
           <li>
-            <img src={potential} alt="" />
+            <img src={potential} alt="potential" />
             <h4>Личносный потенциал</h4>
             <p>
               Вместе раскроем личностный потенциал: лучше узнать себя, свои
@@ -117,7 +117,7 @@ export const Home = () => {
             </p>
           </li>
           <li>
-            <img src={goals} alt="" />
+            <img src={goals} alt="goals" />
             <h4>Жизненые цели</h4>
             <p>
               Найдем ваше призвание, путь к желанной профессии, сформулируем
@@ -127,7 +127,7 @@ export const Home = () => {
         </QUERIES_LIST_TOP_UL>
         <QUERIES_LIST_BTM_UL>
           <li>
-            <img src={fear} alt="" />
+            <img src={fear} alt="fear" />
             <h4>Страхи и фобии</h4>
             <p>
               Вместе мы исследуем корни ваших страхов, преодолеемих, я
@@ -135,7 +135,7 @@ export const Home = () => {
             </p>
           </li>
           <li>
-            <img src={hardTimes} alt="" />
+            <img src={hardTimes} alt="hardTimes" />
             <h4>Трудные времена</h4>
             <p>
               Справимся с кризисом или с тяжелой утратой, переживем потерю или
@@ -143,7 +143,7 @@ export const Home = () => {
             </p>
           </li>
           <li>
-            <img src={love} alt="" />
+            <img src={love} alt="love" />
             <h4>Улучшение отношений</h4>
             <p>
               Мы разработаем эффективные коммуникационные навыки, решим
@@ -155,3 +155,4 @@ export const Home = () => {
     </TITLE_SECTION>
   );
 };
+export default Home;

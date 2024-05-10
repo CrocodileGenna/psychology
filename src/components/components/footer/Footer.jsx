@@ -1,4 +1,5 @@
 import {
+  BG_DIV,
   FOOTER_SECTION,
   FOOTER_DIV,
   FOOTER_TOP_DIV,
@@ -17,18 +18,18 @@ import {
   FORM_DIV,
 } from './Footer.styled';
 
-import logo from '../logo.svg';
-import iconVk from '../img_icon/iconVk.png';
-import iconEmeil from '../img_icon/iconEmail.png';
-import iconWatsApp from '../img_icon/iconWatsApp.png';
-import iconSms from '../img_icon/iconSms.png';
-import iconSkype from '../img_icon/iconSkype.png';
-import iconTelegram from '../img_icon/iconTelegram.svg';
-import sendSms from '../img_icon/tg2.png';
+import logo from '../../logo.svg';
+import iconVk from '../../img_icon/iconVk.png';
+import iconEmeil from '../../img_icon/iconEmail.png';
+import iconWatsApp from '../../img_icon/iconWatsApp.png';
+import iconSms from '../../img_icon/iconSms.png';
+import iconSkype from '../../img_icon/iconSkype.png';
+import iconTelegram from '../../img_icon/iconTelegram.svg';
+import sendSms from '../../img_icon/tg2.png';
 
-export const Footer = () => {
+const Footer = () => {
   return (
-    <div style={{ width: "100%", backgroundColor: "#fff" }}>
+    <BG_DIV>
       <FOOTER_SECTION>
         <FOOTER_DIV>
           <FOOTER_TOP_DIV>
@@ -89,6 +90,7 @@ export const Footer = () => {
           </FOOTER_BOTTOM_DIV>
         </FOOTER_DIV>
       </FOOTER_SECTION>
-    </div>
+    </BG_DIV>
   );
 };
+export default Footer;

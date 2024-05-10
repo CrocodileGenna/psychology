@@ -14,9 +14,9 @@ export const HEADER_SECTION = styled.section`
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  max-width: 1520px;
   margin: 0 auto;
-  padding: 5px 20px;
-  max-width: 1300px;
+  padding: 0 50px 0 50px;
   height: 80px;
 `;
 
@@ -37,7 +37,7 @@ export const A_DIV = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 0 0 10px;
+  margin: 0 0 0 10px;
   width: 100%;
   height: 100%;
   transition: all 0.5s ease;

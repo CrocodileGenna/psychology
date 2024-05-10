@@ -1,5 +1,9 @@
 import styled from '@emotion/styled';
 
+export const BG_DIV = styled.div`
+background-color: #fffc;
+backdrop-filter: blur(10px);`
+
 export const FOOTER_SECTION = styled.section`
   max-width: 1520px;
   margin: 0 auto;

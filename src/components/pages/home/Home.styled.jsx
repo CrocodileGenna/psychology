@@ -1,9 +1,10 @@
 import styled from '@emotion/styled';
-import imgHero from '../img_icon/imgBgHero.png';
+import imgHero from '../../img_icon/imgBgHero.png';
 
 // ==============================================================
 export const TITLE_SECTION = styled.section`
-  max-width: 1300px;
+  max-width: 1520px;
+  padding: 0 50px 0 50px;
   margin: 140px auto 0;
 `;
 
