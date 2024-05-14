@@ -5,7 +5,7 @@ import {
   LEFT_CONTENT_BOT_DIV,
   RIGHT_CONTENT_BOT_DIV,
   RIGHT_TEXT_DIV,
-  SHORT_DESCRITTION_P,
+  // SHORT_DESCRITTION_P,
   TITLE_SECTION,
   TOP_ABOUT_ME_DIV,
 } from './About_me.styled';
@@ -58,10 +58,12 @@ const AboutMe = () => {
           <BOT2_ABOUT_ME_DIV>
             <LEFT_CONTENT_BOT_DIV>
               <h5>Запросы</h5>
-              <SHORT_DESCRITTION_P>
+              {/* <SHORT_DESCRITTION_P> */}
+              <p>
                 В моей работе я готова рассматривать и помогать вам в различных
                 запросах и темах, включая, но не ограничиваясь следующим:
-              </SHORT_DESCRITTION_P>
+              </p>
+              {/* </SHORT_DESCRITTION_P> */}
               <ul>
                 <li>Эмоциональные трудности и стресс</li>
                 <li>Проблемы в отношениях и семейные вопросы</li>
@@ -72,8 +74,12 @@ const AboutMe = () => {
             </LEFT_CONTENT_BOT_DIV>
             <RIGHT_CONTENT_BOT_DIV>
               <h5>Контракт и договоренности</h5>
-              Перед началом работы, мы заключаем контракт, который четко
-              определяет условия сотрудничества. В них входят:
+              {/* <SHORT_DESCRITTION_P> */}
+              <p>
+                Перед началом работы, мы заключаем контракт, который четко
+                определяет условия сотрудничества. В них входят:
+              </p>
+              {/* </SHORT_DESCRITTION_P> */}
               <ul>
                 <li>Длительность сотрудничества</li>
                 <li>Частота и продолжительность сессий</li>

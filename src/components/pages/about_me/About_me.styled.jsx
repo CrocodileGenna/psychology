@@ -152,17 +152,24 @@ export const BOT2_ABOUT_ME_DIV = styled.div`
     margin-top: 20px;
     list-style-type: disc;
     margin-left: 17px;
+    li {
+      font-family: Noto Serif;
+      font-size: 18px;
+      line-height: 32px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
   }
 `;
-export const SHORT_DESCRITTION_P = styled.p`
-  margin-top: 20px;
-  font-family: Noto Serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 22px;
-  letter-spacing: 0em;
-  text-align: left;
-`;
+// export const SHORT_DESCRITTION_P = styled.p`
+//   margin-top: 20px;
+// font-family: Noto Serif;
+// font-size: 16px;
+// font-weight: 400;
+// line-height: 22px;
+// letter-spacing: 0em;
+// text-align: left;
+// `;
 export const LEFT_CONTENT_BOT_DIV = styled.div`
   padding-right: 15%;
   border-right: 2px solid #000;

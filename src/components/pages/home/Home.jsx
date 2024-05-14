@@ -101,7 +101,7 @@ const Home = () => {
         <h3>Основные запросы</h3>
         <QUERIES_LIST_TOP_UL>
           <li>
-            <img src={selbstachtung} alt="selbstachtung" />
+            <img src={selbstachtung} alt="" />
             <h4>Наладить самооценку</h4>
             <p>
               Помогу превратить недостатки в достоинства, прийти к согласию с
@@ -109,7 +109,7 @@ const Home = () => {
             </p>
           </li>
           <li>
-            <img src={potential} alt="potential" />
+            <img src={potential} alt="" />
             <h4>Личносный потенциал</h4>
             <p>
               Вместе раскроем личностный потенциал: лучше узнать себя, свои
@@ -117,7 +117,7 @@ const Home = () => {
             </p>
           </li>
           <li>
-            <img src={goals} alt="goals" />
+            <img src={goals} alt="" />
             <h4>Жизненые цели</h4>
             <p>
               Найдем ваше призвание, путь к желанной профессии, сформулируем
@@ -127,7 +127,7 @@ const Home = () => {
         </QUERIES_LIST_TOP_UL>
         <QUERIES_LIST_BTM_UL>
           <li>
-            <img src={fear} alt="fear" />
+            <img src={fear} alt="" />
             <h4>Страхи и фобии</h4>
             <p>
               Вместе мы исследуем корни ваших страхов, преодолеемих, я
@@ -135,7 +135,7 @@ const Home = () => {
             </p>
           </li>
           <li>
-            <img src={hardTimes} alt="hardTimes" />
+            <img src={hardTimes} alt="" />
             <h4>Трудные времена</h4>
             <p>
               Справимся с кризисом или с тяжелой утратой, переживем потерю или
@@ -143,7 +143,7 @@ const Home = () => {
             </p>
           </li>
           <li>
-            <img src={love} alt="love" />
+            <img src={love} alt="" />
             <h4>Улучшение отношений</h4>
             <p>
               Мы разработаем эффективные коммуникационные навыки, решим
